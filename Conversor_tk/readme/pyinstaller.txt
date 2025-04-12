@@ -1,0 +1,3 @@
+pip install pyinstaller
+
+pyinstaller --onefile --noconsole --add-data "src/ico.ico;src" --icon=src/ico.ico conversion.py
